@@ -1,0 +1,114 @@
+body{
+    /*background-image: url('images/backimg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: brown;*/
+    background-color: aqua;
+
+}
+h1{
+    color:#fbff00 ;
+    background-color: #ff0000;
+    border-color: black;
+    border-style: double;
+    border-width: 10px;
+    border-radius: 50px;
+    font-size: 55px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    /*margin: 20px 50px 30px 60px*/
+    padding-left: 20px;
+    /*padding: 30px;*/
+}
+#main-title{
+    background-color: yellow;
+    color: black;
+}
+.mt1{
+    background-color: green;
+}
+
+h2{
+    /*border: red 4px solid;*/
+    border: green 4px solid;
+    border-top: red 4px dotted;
+    margin: 80px;
+    padding: 30px 50px;
+}
+/*p{
+    background-color: black;
+    color: white;
+
+}*/
+.main{
+    background-color: red;
+    color: white;
+    padding:10px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    text-align-last: justify;
+    text-decoration: none;
+    line-height: 40px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-indent: 30px; /*beginning space of the Paragraph*/
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 1000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+    background-color: red;
+}
+
+a:active{
+    color: purple;
+}
+
+.main1{
+    width: 300px;
+    background-color: yellow;
+    padding: 20px;
+    position: sticky;
+    top: 400px;
+
+}
+.main2{
+    width: 300px;
+    background-color: red;
+    padding: 20px;
+    position:relative;
+    top: 200px;
+    left: 400px;
+
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    border: 1px blue solid;
+    padding: 10px 20px;
+    position: fixed;
+    right: 0;
+    
+}
+.btn:hover{
+    background-color: darkmagenta;
+}
+
+
+
